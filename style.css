@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+*{
+   margin: 0px;
+   padding: 0px;
+   font-family: "Poiret One", sans-serif;
+}
+.main{
+    width: 100%;
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+    background-image: url("./Assets/h1_hero1.jpg");
+}
+.nav{
+    width: 100%;
+    height: 200px;
+    background-color:#0A0A0A;
+    display: flex;
+
+}
+.nav .left{
+    width: 25%;
+}
+.nav .left span svg{
+    font-size: 30px;
+    position: relative;
+    top: 70px;
+    left: 60px;
+    margin-left: 20px;
+}
+.nav .middle{
+    width: 50%;
+    height: inherit;
+}
+.nav .middle img{
+    margin-left: 250px;
+    margin-top:20px ;
+}
+
+ .p a{
+   margin-left: 40px;
+   padding-left: 10px;
+   line-height: 90px;
+   font-size: 15px;
+   text-decoration: none;
+   text-transform: uppercase;
+   color: white;
+   position: relative;
+   left: 100px;
+   font-family: "Jost", sans-serif;
+ }
+ .p a:hover{
+    color: #E5BF4A;
+ }
+.nav .right{
+    width: 25%;
+    height: inherit;
+}
+.right button{
+    width: 60%;
+    height: 50px;
+    border: 1px solid #E5BF4A;
+    font-size: 15px;
+    color: #E5BF4A;
+    background-color: transparent;
+    margin-top: 50px;
+    margin-left: 60px;
+    font-family: "Jost", sans-serif;
+}
+.right button:hover{
+    background-color:#E5BF4A ;
+    color: white;
+    cursor: pointer;
+}
+.maan{
+    width: 80%;
+    height: 200px;
+    position: relative;
+    top: -340px;
+}
+.maan h1{
+    color: white;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    padding-left: 70px;
+}
+.maan button{
+    width: 12%;
+    height: 50px;
+    background-color: #E5BF4A;
+    font-size: 15px;
+    text-transform:uppercase;
+    margin-left:70px ;
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    font-family: "Jost", sans-serif;
+}
+.maan button:hover{
+    background-color: transparent;
+    color: #E5BF4A;
+    cursor: pointer;
+    border: 1px solid #E5BF4A;
+}
+.pot{
+   width: 100%;
+   height: 800px;
+   background-color: #0A0A0A;
+   margin-top: -200px;
+}
+.pot h1{
+    color: white;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    padding-left: 400px;
+    padding-top: 90px;
+    
+}
+.bor{
+    width: 8%;
+    color: #E5BF4A;
+    border: 1px solid;
+    margin-left: 600px;
+    margin-top: 40px;
+}
+.motabhai{
+    width: 80%;
+    height: 500px;
+    margin-top: 60px;
+    margin-left: 150px;
+    display: flex;
+    
+}
+.motabhai .left{
+     width: 60%;
+     height: inherit
+}
+.motabhai .left p{
+    color: #E5BF4A;
+    font-size: 24px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+#glass{
+    color: white;
+    font-size: 18px;
+    width: 100%;
+    line-height: 24px;
+    word-spacing: 5px;
+}
+#water{
+    color: white;
+    font-size: 18px;
+    width: 100%;
+    line-height: 24px;
+    word-spacing: 5px;
+}
+.motabhai .right{
+    width: 40%;
+    height: inherit;
+}
+.motabhai .right img{
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    margin-left: 20px;
+}
+.whole{
+   width: 100%;
+   height: 800px;
+   background-color: #0A0A0A;
+   margin-top: -30px;
+}
+.whole1{
+    width: 80%;
+    height: 500px;
+    position: relative;
+    top: 150px;
+    left: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.bird img{
+    width: 100%;
+    height: 300px;
+    transition: 0.5s;
+}
+.bird img:hover{
+    transform: scale(1.03);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.bird p{
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+}
+#shiv{
+    color: #E5BF4A;
+    font-size: 24px;
+    font-family: "Jost", sans-serif;
+    margin-top: 10px;
+}
+.video iframe{
+    width: 100%;
+    height: 710px;
+    background-color: #0A0A0A;
+}
+.reviews{
+   width: 100%;
+   height:600px ;
+   background-color: #0A0A0A;
+  
+}
+.rose{
+    width: 90%;
+    height: 500x;
+    display: flex;
+    margin-left: 50px;
+}
+.reviews h2{
+    color: white;
+    margin-left: 600px;
+    padding-top: 100px;
+    font-size: 40px;
+    font-weight: 400;
+}
+.radhe{
+    width: 30%;
+    height: 300px;
+    border: 1px solid gray;
+    position: relative;
+    top: 50px;
+    left: 70px;
+  
+}
+.radhe img{
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+#radhe1{
+    color: white;
+    font-size: 24px;
+    position: relative;
+    top: 70px;
+    left: 30px;
+}
+.box{
+    width: 10%;
+    height: 40px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    margin-top: 70px;
+    margin-left: 10px;
+    background-position: center;
+    background-size: cover;
+}
+.box p{
+    width: 300%;
+    font-size: 16px;
+    margin-left: 80px;
+    margin-top: -5px;
+    color: white;
+    font-family: "Jost", sans-serif;
+}
+.munjya{
+    width: 100%;
+    height: 700px;
+    background-color: #0A0A0A;
+}
+.munjya h1{
+    color: white;
+    font-size: 40px;
+    margin-left: 100px;
+    font-weight: 400;
+    padding-top: 50px
+}
+.munjya button{
+    width: 12%;
+    height: 50px;
+    background-color: #E5BF4A;
+    font-size: 15px;
+    text-transform:uppercase;
+    position: relative;
+    top: -40px  ;
+    left: 1200px;
+    border: none;
+    outline: none;
+    font-family: "Jost", sans-serif;
+}
+.munjya button:hover{
+    background-color: transparent;
+    color: #E5BF4A;
+    cursor: pointer;
+    border: 1px solid #E5BF4A;
+}
+.bg{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+.bg-bg1{
+    width: 50%;
+    height:inherit ;
+}
+.park{
+    width: 90%;
+   height: 350px;
+   border: 1px solid gray;
+   margin-top: 70px;
+   margin-left: 50px;
+   display: flex;
+}
+.parkleft{
+    width: 50%;
+    height: 350px;
+    background-image: url("./Assets/blog1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.parkleft1{
+    width: 50%;
+    height: 350px;
+    background-image: url("./Assets/blog2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.parkright{
+    width: 50%;
+    height: 350px;
+}
+.parkright h3{
+    color: #E5BF4A;
+    font-size: 24px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.parkright p{
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#idea{
+    color: #E5BF4A;
+    font-size: 18px;
+    border-bottom: 2px solid #E5BF4A;
+    width: 28%;
+    font-weight: 700;
+}
+.bg-bg2{
+    width: 50%;
+    height:inherit ;
+}
+.imposter{
+    width: 100%;
+    height: 700px;
+    background-color: #0A0A0A;
+}
+.imposter h1{
+    font-size: 40px;
+    margin-left: 550px;
+}
+.imposter button{
+    width: 10%;
+    height: 40px;
+    position: relative;
+    top: 30px;
+    left: 650px;
+    background-color: transparent;
+    color: #E5BF4A;
+    border: 1px solid #E5BF4A;
+}
+.imposter button svg{
+    position: relative;
+    left: -10px;
+    top: 2px;
+}
+.mask{
+    width: 90%;
+    height: 400px;
+    margin-top: 100px;
+    display: flex;
+    margin-left: 18px;
+}
+.mask img{
+    width: 25%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    margin-left: 20px;
+}
+.chudail{
+    width: 100%;
+    height: 700px;
+    background-color: #0A0A0A;
+}
+.up{
+    padding-top: 100px;
+}
+.up img{
+    margin-left: 100px;
+    padding-top: 100px;
+}
+.pl a{
+    margin-left: 40px;
+    padding-left: 10px;
+    line-height: 90px;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    left: 800px;
+    top: -100px;
+    font-family: "Jost", sans-serif;
+  }
+.bor1{
+   border: 1px solid rgb(51, 50, 50);
+  margin-inline: 100px;
+   margin-top: -40px;
+   
+  }
+  .down{
+    width: 100%;
+    height: 400px;
+    display: flex;
+  }
+  .down .sec1{
+    width: 50%;
+    height: inherit;
+  }
+  .down .sec1 p{
+    color: white;
+    margin-top: 100px;
+    margin-left: 50px;
+    line-height: 30px;
+  }
+   .down .sec1 span button{
+    width: 20%;
+    height: 50px;
+    border: 1px solid white;
+    background-color: transparent;
+    margin-left: -1150px;
+    margin-top: 100px;
+    color: white;
+  }
+  .down .sec1 span svg {
+    margin-top: 50px;
+    position: relative;
+    left: 100px;
+    margin-left: 20px;
+    font-size: 30px;
+  }
+
+  .down .sec2{
+    width: 25%;
+  }
+  .sec2 img{
+    width: 30px;
+    position: relative;
+    top: 100px;
+    left: 150px;
+
+  }
+  .sec2 p span{
+    color: #E5BF4A;
+    font-size: 30px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+  
+  }
+  .sec2 p{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    color: white;
+    font-family: "Jost", sans-serif;
+  }
+  .down .sec3{
+    width: 25%;
+    height: inherit;
+
+  }
+  .sec3 img{
+    width: 30px;
+    position: relative;
+    top: 100px;
+    left: 150px;
+
+  }
+  .sec3 p span{
+    color: #E5BF4A;
+    font-size: 30px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+  
+  }
+  .sec3 p{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    color: white;
+    font-family: "Jost", sans-serif;
+    width: 70%;
+  }
+
+ 
+
+ 
+
